@@ -14,6 +14,10 @@
           transform: translateX(-50%) translateY(-1.5%);
 }
 
+.timeline-content > h2 {
+  -webkit-transform: translateY(30%);
+}
+
 .timeline-item {
   width: 100%;
   margin-bottom: 70px;
@@ -131,7 +135,6 @@ blockquote {
 @media screen and (max-width: 768px) {
   .timeline::before {
     left: 50px;
-    margin-left:5%;
     height: 95%;
     -webkit-transform: translateX(-50%)
   }
