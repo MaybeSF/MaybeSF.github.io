@@ -6,6 +6,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root {
+	--about_col: #2E67F8;
+	--secondary_col: #00A86B; /*#b74e91*/
+  }
+
 .head_text{
 	padding-left: 2%;
 }
@@ -105,7 +110,7 @@ input, select, textarea {
 		background: #312450;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		body.weird-function *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -201,10 +206,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #5e42a6, var(--secondary_col));
+				background-image: -webkit-linear-gradient(to right, #5e42a6, var(--secondary_col));
+				background-image: -ms-linear-gradient(to right, #5e42a6, var(--secondary_col));
+				background-image: linear-gradient(to right, #5e42a6, var(--secondary_col));
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2448,7 +2453,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: var(--secondary_col);
 			content: '\f00c';
 		}
 
@@ -2556,11 +2561,15 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: var(--secondary_col);
 				}
 
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
+				}
+
+				.wrapper.style4 .icon.major:before {
+					color: #2E67F8;
 				}
 
 /* Image */
@@ -3260,11 +3269,15 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: var(--secondary_col);
 		}
 
 		.wrapper.style3-alt {
 			background-color: #953d75;
+		}
+
+		.wrapper.style4 {
+			background-color: #2E67F8;
 		}
 
 		.wrapper.fullscreen {
@@ -3769,10 +3782,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #5e42a6, var(--secondary_col));
+				background-image: -webkit-linear-gradient(to right, #5e42a6, var(--secondary_col));
+				background-image: -ms-linear-gradient(to right, #5e42a6, var(--secondary_col));
+				background-image: linear-gradient(to right, #5e42a6, var(--secondary_col));
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3861,7 +3874,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: var(--secondary_col);
 						}
 
 		}
