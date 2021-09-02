@@ -136,7 +136,6 @@ blockquote {
   .timeline::before {
     left: 50px;
     height: 95%;
-    -webkit-transform: translateX(-50%)
   }
   .timeline .timeline-img {
     left: 50px;
