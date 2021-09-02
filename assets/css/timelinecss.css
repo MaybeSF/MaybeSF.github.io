@@ -16,6 +16,7 @@
 
 .timeline-content > h2 {
   -webkit-transform: translateY(30%);
+  transform: translateY(30%);
 }
 
 .timeline-item {
@@ -136,6 +137,8 @@ blockquote {
   .timeline::before {
     left: 50px;
     height: 95%;
+    -webkit-transform: translateX(-50%);
+    transform: translatex(-50%);
   }
   .timeline .timeline-img {
     left: 50px;
