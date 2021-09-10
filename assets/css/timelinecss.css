@@ -107,8 +107,8 @@
 
 #cast {
   /*3, 58, 51*/
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8))), url("images/cast.png") center center no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("images/cast.png") center center no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8))), url("images/Cast.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("images/Cast.png") center center no-repeat;
   background-size: cover;
 }
 
